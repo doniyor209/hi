@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-right i{
+    color: #F1A900;
+    font-style: 25px;
+}
+
+
+select{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+color: white;
+background-color: black;
+border: none;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: black;
+    width: 192px;
+    height: 82px;
+    border: none;
+    background-color: #F1A900;
+}
+nav{
+    background-color: #222222;
+    padding: 15px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+}
+
+.hero{
+    padding: 349px 0 142px 0;
+    background-image: url(./img/image\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-ota{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.btn2{
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+color: black;
+background-color: #F1A900;
+width: 235px;
+height: 73px;
+border: none;
+}
+.btn3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: white;
+    background-color:black;
+    width: 235px;
+    height: 73px;
+    border: none;
+}
+h1{
+    color: white;
+font-size: 64px;
+font-weight: 700;
+line-height: 77.45px;
+text-align: center;
+width: 966px;
+height: 202px;
+background: #F1A90054;
+padding-top: 70px;
+margin: 40px auto;
+}
+footer{
+    background-color: black;
+    padding: 35px 0;
+}
+
+
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.icons{
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 25px;
+}
+
